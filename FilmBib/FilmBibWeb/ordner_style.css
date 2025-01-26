@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Shrikhand&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #24252A;
+}
+
+li, .navtabs, button{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header{
+  position: relative;
+  background-color: DeepSkyBlue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+.logo{
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  margin-right: 200px;
+  font-size: 46px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+.nav_links{
+  list-style: none;
+}
+
+.nav_links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav_links li a{
+  transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+  color: #0088a9
+}
+
+.table_header{
+  position: relative;
+  background-color: #009dda;
+  display: flex;
+  padding: 20px 10%;
+  text-align: center;
+}
+.table_links{
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table_links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+.table_links li a{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+.table_links li a:hover{
+  color: #0064ff;
+}
+.folder{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: white;
+  display: flex;
+}
+.film{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+}
+.table_headline{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 58px;
+  color: white;
+  text-align: center;
+  margin: 40px;
+}
+
+.film_links:link{
+  color: white;
+  text-decoration: none;
+}
+.film_links:visited{
+  color: white;
+  text-decoration:none;
+}
+.aufklapp_button{
+  padding: 10px 40px;
+  margin-top: 20px;
+}
+.aufklapp_button:link{
+  color: white;
+  text-decoration: none;
+}
+.aufklapp_button:visited{
+  color: white;
+  text-decoration:none;
+}
